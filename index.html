@@ -7,22 +7,53 @@
     <link rel="stylesheet" href="/index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Pacifico&display=swap" rel="stylesheet">
-
-    <title>Memetology😂</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,200;1,400&display=swap" rel="stylesheet">
+        <title>Memetology😂</title>
 </head>
-<body>
+<body style="overflow-y:scroll;">
     <div class='box'>
         <div class='wave -one'></div>
         <div class='wave -two'></div>
         <div class='wave -three'></div>
       </div>
      <div class="intro">
-        <p> Laugh  at your problems</p>
-        
+        <p> Laugh  at your problems 😂❤ </p>
+    </div>
+    <!-- Button to open the modal login form -->
+    <!-- <button onclick="document.getElementById('id01').style.display='block'"><h3>Login</h3></button> -->
+
+    <!-- The Modal -->
+    <div id="id01" class="modal">
+    <span onclick="document.getElementById('id01').style.display='none'"
+    class="close" title="Close Modal">&times;</span>
+
+    <!-- Modal Content -->
+    <form class="modal-content animate" action="/action_page.php">
+        <div class="imgcontainer">
+        <i class="	fas fa-user-alt"></i>
+        </div>
+
+        <div class="container" >
+        <label for="uname" class="uname"><b>Username</b></label>
+        <input type="text" placeholder="Enter Username" name="uname" required>
+
+        <label for="psw" class="psw"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" required>
+
+        <button type="submit" class="sub" style="font-family:Poppins;">Login</button><br><br>
+        <label>
+            <input type="checkbox" checked="checked" name="remember" class="check"> Remember me
+        </label>
+        </div>
+
+        <div class="cunt" style="background-color:#0e6cc4;">
+        <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn"></button>
+        <span class="fp">Forgot <a href="#">password?</a></span>
+        </div>
+    </form>
     </div>
 
     
-    
+<script src="/ndex.js"></script> 
 </body>
 </html>

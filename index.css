@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,200;1,400&display=swap');
 
 body{
 	margin: 0;
@@ -6,6 +6,7 @@ body{
 	background-color: #0e6cc4;
 	overflow-x:hidden;
 	overflow-y:hidden;
+  position:relative; left:80px; top:2px;
 }
 
 /*waves****************************/
@@ -151,5 +152,154 @@ body{
     font-size: 90px;
     position: center;
     padding: 30px;
-    margin-left: 200px;
+    margin-left: 5%;
 }
+/* Modal Header */
+.modal-header {
+  padding: 2px 16px;
+  background-color: #5cb85c;
+  color: white;
+}
+
+* Bordered form */
+form {
+  border: 3px solid #f1f1f1;
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #0e6cc4;
+  color: #0e6cc4;;
+  /* padding: 14px 20px; */
+  /* margin: 8px 0; */
+  border: none;
+  cursor: pointer;
+  width: 300px;
+  height: 5rem;
+  margin-left: 35%;
+  border-radius: 10px;
+  
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+  opacity: 0.8;
+  color: white;
+}
+
+/* Extra style for the cancel button (red) */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #0e6cc4;
+}
+
+/* Center the avatar image inside this container */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position:fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #0e6cc4;
+  margin: 5px auto; /* 15% from the top and centered */
+  border: none ;
+  width: 50%; /* Could be more or less, depending on screen size */
+  margin-left: 25%;
+}
+
+/* The Close Button */
+.close {
+  /* Position it in the top right corner outside of the modal */
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+/* Close button on hover */
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)}
+  to {-webkit-transform: scale(1)}
+}
+
+@keyframes animatezoom {
+  from {transform: scale(0)}
+  to {transform: scale(1)}
+}
+.container{
+  width:80%;
+  font-family: Poppins;
+  background-color: #0e6cc4;
+  
+}
+.sub{
+  margin-left:20%;
+  font-size: larger;
+  color: black;
+  font-weight: bolder;
+}
+.uname{
+  margin-left: 40%;
+  font-size: larger;
+
+}
+.psw{
+  margin-left: 40%;
+  font-size: larger;
+}
+.fp{
+  font-family: Poppins;
+  color: #000;
+  margin-left: -9%;
+
+
+}
+.check{
+  margin-left: 37%;
+}
+a{
+  color: white;
+}
+
+
